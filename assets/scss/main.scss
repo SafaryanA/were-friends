@@ -1,0 +1,31 @@
+@import "utils/reset";
+//@import "../css/font.css";
+@import "helpers/common";
+@import "utils/common";
+@import "components/common";
+
+html{
+  @include theme-primary-color(light, #fff000,  );
+  //@include theme-primary-color(dark, )
+}
+body {
+  padding-top: 20px;
+  min-width: 320px;
+  position: relative;
+  font-size: px-rem(16);
+  overflow-x: hidden;
+  font-family: TiltPrism-Regular, sans-serif;
+  line-height: px-rem(25);
+}
+.main-logo{
+  display: block;
+  text-decoration: none;
+  color:$dark-color;
+  font-family: sans-serif;
+  font-size: 30px;
+  svg{}
+}
+h1 {
+  color: $main-color;
+}
+@import "utils/media";

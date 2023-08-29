@@ -1,0 +1,13 @@
+@mixin theme-primary-color($name, $color-one, ) {
+
+  &[data-primary-color="#{$name}"] {
+    &[data-pro-theme="dark-theme"], &[data-pro-theme="light-theme"], & {
+      body{
+        background-color: $color-one;
+      }
+.main-logo{
+  color:#b2008d;
+}
+    }
+  }
+}
